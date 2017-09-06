@@ -1,0 +1,6 @@
+-#!/bin/sh      
+cd /home/gaurav/test  
+git pull       
+npm install --production       
+pm2 restart all
+EOF
